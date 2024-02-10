@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Lampotory</title>
+  </head>
+  <body>
+    <row-section>
+      <row-article class="menu_logo main-flex-1">
+        <i class="fas fa-code fa-2x text-warning pb-3"></i>
+        <img
+          src="./images/logo.png"
+          class="logo"
+        />
+      </row-article>
+      <row-article>
+        <row-section class="flex-end main-flex-2">
+          <div class="menu-element">
+            <a href="#about" class="menu_text navigation-link">Новости</a>
+          </div>
+          <div class="menu-element">
+            <a href="#projects" class="menu_text navigation-link"
+              >О проекте</a
+            >
+          </div>
+          <div class="menu-element">
+            <a href="#social-media" class="menu_text navigation-link"
+              >Сообщество</a
+            >
+          </div>
+        </row-section>
+      </row-article>
+    <row-section>
+    <!-- Main Container -->
+    <column-section>
+      <column-article>
+        <div class="main-container">
+          <row-section>
+            <row-article>
+              <div class="main">
+                <img
+                src="./images/path2.png"
+                class="back"
+                />
+                <h1 class="text m-heading">Lampotory</h1>
+                <h2 class="text m-subheading">Открытая и полностью бесплатная кроссплатформенная виртуальная лаборатория по физике!</h2>
+                <a href="https://github.com/BendySonic/lampotory" class="">
+                  <h3 class="bg-blue download download_text">Скачать</h3>
+                </a>
+                <p class="grey_text">
+                  На данный момент программа недоступна
+                </p>
+              </div>
+            </row-article>
+            <row-article>
+              <img
+                src="./images/path.png"
+                class="main-logo"
+              />
+            </row-article>
+          </row-section>
+        </div>
+      </column-article>
+
+      <column-article>
+        <!-- Projects Section -->
+        
+        <div id="projects">
+          <h1 class="mb-3 pb-2 about_text">Физика ещё никогда не была такой...</h1>
+          
+          <row-section>
+            <row-article class="flex-300">
+              <div class="card">
+                <img
+                  src="./images/easy.svg"
+                  class="card-img-top, img-card"
+                  style="height: 13rem;"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title normal_text">Простой</h5>
+                  <p class="card-text normal_text">
+                    Минималистичный интерфейс с виртуальным помощником.
+                  </p>
+                </div>
+              </div>
+            </row-article>
+            <row-article class="flex-300">
+              <div class="card">
+                <img
+                  src="./images/platforms.svg"
+                  class="card-img-top img-fluid img-card"
+                  alt="..."
+                  style="height: 13rem;"
+                />
+                <div class="card-body">
+                  <h5 class="card-title normal_text">Доступной</h5>
+                  <p class="card-text normal_text">
+                    Lampotory - кросс-платформенная и бесплатная программа.
+                  </p>
+                </div>
+              </div>
+            </row-article>
+            <row-article class="flex-300">
+              <div>
+                <div class="card">
+                  <img
+                    src="./images/team.svg"
+                    class="card-img-top img-card"
+                    alt="..."
+                    style="height: 13rem;"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title normal_text">Свободной</h5>
+                    <p class="card-text normal_text">
+                      Lampotory - программа с открытым исходным кодом, в которую каждый может внести свой вклад!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </row-article>
+          </row-section>
+        </div>
+      </column-article>
+    </column-section>
+
+    <!-- Social Media Section -->
+    <div id="social-media">
+      <div class="container text-white py-4">
+        <h4 class="media-text">Сообщество</h4>
+        <h1 class="media-heading-text">Присоединяйся</h1>
+        <div class="row pt-4">
+          <a class="col-1 media_link bg-blue" href="https://github.com/BendySonic/lampotory">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 white_text">Github</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </a>
+          <div class="col-1 media_link bg-blue btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 white_text">Email</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fas fa-envelope fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+  </body>
+</html>
